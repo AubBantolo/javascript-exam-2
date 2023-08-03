@@ -12,6 +12,7 @@ describe('get common items from two different array', () => {
         const result = getCommonItems(numbers1, numbers2);
 
         //THEN
+        console.log(result);
         expect(result).toEqual(expected);
     });
 
@@ -25,6 +26,7 @@ describe('get common items from two different array', () => {
         const result = getCommonItems(words1, words2);
 
         //THEN
+        console.log(result);
         expect(result).toEqual(expected);
     });
 });
